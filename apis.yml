@@ -1,8 +1,27 @@
 aid: one-medical
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/one-medical.png
 name: One Medical *
-description: 'One Medical * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'One Medical (1Life Healthcare, Inc.) is a membership-based primary care
+  organization delivering in-person and virtual healthcare across 25+ US cities. Members
+  pay an annual fee for same/next-day appointments, 24/7 on-demand video visits, secure
+  provider messaging, integrated lab services, and digital health records, with most
+  major insurance plans accepted. The company was surfaced as a portfolio company of
+  GV (Google Ventures) and is now owned by Amazon, which offers One Medical membership
+  to Amazon Prime members. This profile was added to the API Evangelist network as a
+  stub for enrichment; One Medical operates a consumer healthcare site and member app
+  and publishes no public developer API, developer portal, or /.well-known/ discovery
+  surface.'
 url: https://raw.githubusercontent.com/api-evangelist/one-medical/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Healthcare
+- Primary Care
+- Telehealth
+- Amazon
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +47,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://onemedical.com
+  url: https://www.onemedical.com
+- type: Blog
+  url: https://www.onemedical.com/blog/
+- type: PrivacyPolicy
+  url: https://www.onemedical.com/amazon-privacy-page/
+- type: TermsOfService
+  url: https://www.onemedical.com/terms-of-use/
+- type: Support
+  url: https://www.onemedical.com/contact-us/
+- type: DomainSecurity
+  url: security/one-medical-domain-security.yml
+- type: WellKnown
+  url: well-known/one-medical-well-known.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

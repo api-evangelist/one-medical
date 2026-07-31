@@ -1,0 +1,12 @@
+generated: '2026-07-20'
+method: probed
+source: live probes of https://www.onemedical.com/.well-known/*
+host: https://www.onemedical.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+notes: One Medical publishes a consumer healthcare site only; no /.well-known/ discovery documents are served.
