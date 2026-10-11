@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "one-medical",
+    "captured_at": "2026-10-11T192532",
+    "source_url": "https://www.onemedical.com",
+    "source_type": "Website",
+    "file": "one-medical-2026-10-11T192532.png",
+    "bytes": 305378,
+    "capture": "playwright-local"
+  }
+]
